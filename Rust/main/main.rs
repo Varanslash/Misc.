@@ -6,4 +6,5 @@ fn main() {
         .read_line(&mut input)
         .expect("Failed to read line");
     println!("so this is what u said -> {}", input.trim());
+
 }
